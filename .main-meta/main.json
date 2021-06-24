@@ -2,11 +2,11 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
+        "metaDataVersion": "1.2.0",
+        "name": "com.microchip.mcu8.mplabx.project.test.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "version": "1.0.0",
-        "displayName": "Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
-        "projectName": "avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
+        "displayName": "Test Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
+        "projectName": "test-avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
         "ide": {
             "name": "MPLAB X",
@@ -79,7 +79,50 @@
 					"fileName": "./README.md",
 					"mimeType": "text/markdown"
 				}
-			}
+			},
+            "gettingMechanisms": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.gettingMechanismsRef",
+                "content": {
+                  "metaDataVersion": "1.0.0",
+                  "openWith": [
+                    {
+                      "type": "url",
+                      "data": {
+                        "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf"
+                      },
+                      "tooltip": "ADC DMAC PDF"
+                    },
+                    {
+                      "type": "github",
+                      "name": "Private Github",
+                      "data": {
+                        "url": "https://github.com/microchip-pic-avr-examples/attiny1627-curiosity-nano-pga-demo-mplab-mcc/tree/1.0.0/"
+                      }
+                    },
+                    {
+                      "type": "xpress",
+                      "tooltip": "Xpress application"
+                    }
+                  ],
+                  "download": [
+                    {
+                      "type": "url",
+                      "data": {
+                        "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip"
+                      },
+                      "tooltip": "Sleepwalking Proj"
+                    },
+                    {
+                      "type": "github",
+                      "data": {
+                        "url": "https://github.com/microchip-pic-avr-examples/attiny1627-curiosity-nano-pga-demo-mplab-mcc/archive/1.0.0.zip"
+                      },
+                      "tooltip": "github zip download"
+                    }
+                  ]
+                }
+              }
 		}
 	}
 }
