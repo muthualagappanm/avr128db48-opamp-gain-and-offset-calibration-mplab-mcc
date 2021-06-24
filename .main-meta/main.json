@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.2.0",
         "name": "com.microchip.mcu8.mplabx.project.test.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "1.1.0",
+        "version": "1.2.2",
         "displayName": "Test Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "test-avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
@@ -88,20 +88,33 @@
                   "openWith": [
                     {
                       "type": "url",
-                      "name": "MCHP GitHub",
+                      "name": "PDF",
                       "data": {
-                        "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.pdf"
-                      }
-                    }
+                        "url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-START-User-Guide-DS50002793A.pdf"
+                      },
+                      "tooltip": "Open PDF in browser"
+                    },
+                    {
+                        "type": "github",
+                        "show": false
+                      },
+                      {
+                          "type": "xpress",
+                          "show": false
+                        }
                   ],
                   "download": [
                     {
                       "type": "url",
-                      "name": "Microchip Help",
+                      "name": "Help Document",
                       "data": {
-                        "url": "http://ww1.microchip.com/downloads/en/project/adc_dmac_sleepwalking_sam_c21n_xpro.zip"
+                        "url": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-START-User-Guide-DS50002793A.pdf"
                       }
-                    }
+                    },
+                    {
+                        "type": "github",
+                        "show": false
+                      }
                   ]
                 }
               }
