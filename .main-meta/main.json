@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.test.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "1.4.0",
+        "version": "1.4.1",
         "displayName": "Test Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "test-avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
@@ -79,43 +79,43 @@
 					"fileName": "./README.md",
 					"mimeType": "text/markdown"
 				}
-			}
-		},
-    "gettingMechanisms": {
-      "metaDataVersion": "1.0.0",
-      "category": "com.microchip.portal.ideProjectGettingMechanismsRef",
-      "content": {
+			},
+      "gettingMechanisms": {
         "metaDataVersion": "1.0.0",
-        "openWith": [
-          {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.urlGettingMechanismRef",
-            "content": {
+        "category": "com.microchip.portal.ideProjectGettingMechanismsRef",
+        "content": {
+          "metaDataVersion": "1.0.0",
+          "openWith": [
+            {
               "metaDataVersion": "1.0.0",
-              "type": "url",
-              "data": {
-                "url": "https://microchip.com/content/dam/mchp/documents/MCU08/ApplicationNotes/ApplicationNotes/GainOffsetCalib-AnalogSignalCond-OPAMP-Periph-DS00003633A.pdf",
-                "name": "Microchip repo",
-                "tooltip": "microchip public repository"
+              "category": "com.microchip.portal.urlGettingMechanismRef",
+              "content": {
+                "metaDataVersion": "1.0.0",
+                "type": "url",
+                "data": {
+                  "url": "https://microchip.com/content/dam/mchp/documents/MCU08/ApplicationNotes/ApplicationNotes/GainOffsetCalib-AnalogSignalCond-OPAMP-Periph-DS00003633A.pdf",
+                  "name": "Microchip repo",
+                  "tooltip": "microchip public repository"
+                }
               }
             }
-          }
-        ],
-        "download": [
-          {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.urlGettingMechanismRef",
-            "content": {
+          ],
+          "download": [
+            {
               "metaDataVersion": "1.0.0",
-              "type": "url",
-              "data": {
-                "url": "https://microchip.com/content/dam/mchp/documents/MCU08/ApplicationNotes/ApplicationNotes/GainOffsetCalib-AnalogSignalCond-OPAMP-Periph-DS00003633A.pdf",
-                "name": "Microchip Help"
+              "category": "com.microchip.portal.urlGettingMechanismRef",
+              "content": {
+                "metaDataVersion": "1.0.0",
+                "type": "url",
+                "data": {
+                  "url": "https://microchip.com/content/dam/mchp/documents/MCU08/ApplicationNotes/ApplicationNotes/GainOffsetCalib-AnalogSignalCond-OPAMP-Periph-DS00003633A.pdf",
+                  "name": "Microchip Help"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
-    }
+		}
 	}
 }
