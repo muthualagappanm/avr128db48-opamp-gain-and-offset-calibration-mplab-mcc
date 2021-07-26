@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.test.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "displayName": "Test Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "test-avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
@@ -58,17 +58,12 @@
             "OPAMP", "DAC", "ADC", "VREF"
         ],
         "keywords": [
-			"Analog Signal Conditioning",
-			"Operational Amplifier",
-			"Op Amp",
-			"Resistor Ladder",
-
-            "Non-Inverting Amplifier",
-            "PGA",
-			"Gain",
-			"Offset",
-			"Calibration",
-			"opamp-gain-and-offset-calibration"
+          "AC",	
+          "Ethernet MAC",            
+          "IoT",
+          "Cloud Analytics",            
+          "Power Conversion",            
+          "Bluetooth"
         ],
 		"additionalData": {
 			"longDescription": {
