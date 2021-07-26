@@ -93,6 +93,25 @@
                   "tooltip": "microchip public repository"
                 }
               }
+            },
+            {
+              "metaDataVersion": "1.0.0",
+              "category": "com.microchip.portal.githubGettingMechanismRef",
+              "content": {
+                "metaDataVersion": "1.0.0",
+                "type": "github",
+                "data": {
+                  "url": "https://github.com/muthualagappanm/pic18f47q10-hello-world/tree/1.91.2"
+                }
+              }
+            },
+            {
+              "metaDataVersion": "1.0.0",
+              "category": "com.microchip.portal.xpressGettingMechanismRef",
+              "content": {
+                "metaDataVersion": "1.0.0",
+                "type": "xpress"
+              }
             }
           ],
           "download": [
@@ -105,6 +124,17 @@
                 "data": {
                   "url": "https://microchip.com/content/dam/mchp/documents/MCU08/ApplicationNotes/ApplicationNotes/GainOffsetCalib-AnalogSignalCond-OPAMP-Periph-DS00003633A.pdf",
                   "name": "Microchip Help"
+                }
+              }
+            },
+            {
+              "metaDataVersion": "1.0.0",
+              "category": "com.microchip.portal.githubGettingMechanismRef",
+              "content": {
+                "metaDataVersion": "1.0.0",
+                "type": "github",
+                "data": {
+                  "url": "https://github.com/muthualagappanm/pic18f47q10-hello-world/archive/1.4.2.zip"
                 }
               }
             }
